@@ -1,0 +1,1 @@
+ rm -f array.1 array.md; node test.js > array.md; curl -F page=@array.md http://mantastic.herokuapp.com > array.1; man ./array.1
